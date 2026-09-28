@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <title>Education and Achievements</title>
+
+    <style>
+       #iitr{
+        height: 200px;
+        width:300px;
+        float:left;
+        margin:20px;
+        border:4px solid black ;
+       }
+
+       nav{
+        clear:left;
+       }
+
+       #st{
+        height:200px;
+        width:300px;
+        clear:left;
+        float:left;
+        margin:20px;
+        border:4px solid black ;
+       }
+
+       #bvp{
+        height:200px;
+        width:300px;
+        clear:left;
+        float:left;
+        margin:20px;
+        border:4px solid black ;
+       }
+
+       .main-header-1,
+       .main-header-2{
+        text-align:center;
+        height: 150px;
+        font-size: 5em;
+        font-weight: bold;
+        text-decoration: underline;
+        font-family:'Times New Roman', Times, serif;
+        text-shadow: 6px 6px 18px rgb(0,0,0,0.85);
+        margin: 0px;
+        letter-spacing: 0.2rem;
+        line-height: 100px;
+        background-color: #a3d5ff;
+       }
+
+       .institute{
+        font-weight: bold;
+        font-size: 2em;
+        font-family: 'Times New Roman', Times, serif;
+        margin:0px;
+        text-shadow:  6px 6px 18px rgb(0,0,0,0.85);
+       }
+
+       p{
+        margin:0px;
+       }
+
+       li{
+        margin-left:50px;
+        font-size:1.5em;
+       }
+
+       .text{
+        margin-left:100px;
+       }
+
+       .r3{
+        clear:left;
+        background-color: #83c9f4;
+        height: 130px;
+        line-height:100px;
+        text-shadow: 6px 6px 18px rgb(0,0,0,0.85);
+       }
+
+       .hyper{
+        line-height: 5;
+        font-size:1.53em;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color:blue;
+       }
+
+       .hyper:hover{
+        color:purple;
+       }
+
+       .data{
+        background-color: #d9f0ff;
+       }
+
+       ol{
+        background-color: #d9f0ff;
+        margin:0px;
+       }
+
+       h1{
+        margin:0px;
+       }
+
+       /*responsiveness*/
+
+       
+       @media (max-width: 992px) {
+
+            .main-header-1,
+            .main-header-2{
+                font-size: 3.5em;
+                height: auto;
+                line-height: normal;
+                padding: 20px 0;
+            }
+
+            .text{
+                margin-left: 50px;
+            }
+
+            li{
+                font-size: 1.3em;
+            }
+
+            .r3{
+                height: auto;
+                line-height: normal;
+                padding: 15px 0;
+            }
+       }
+
+       
+       @media (max-width: 600px) {
+
+            .main-header-1,
+            .main-header-2{
+                font-size: 2.3em;
+                letter-spacing: 0.1rem;
+                padding: 20px 10px;
+            }
+
+           
+            #iitr,
+            #st,
+            #bvp{
+                float: none;
+                display: block;
+                margin: 25px auto;
+                width: 90%;
+                height: auto;
+            }
+
+            .institute{
+                text-align: center;
+                font-size: 1.7em;
+            }
+
+            .text{
+                margin-left: 0;
+                padding: 0 20px;
+            }
+
+            li{
+                margin-left: 20px;
+                font-size: 1.15em;
+            }
+
+            
+            ol li{
+                margin-left: 20px;
+            }
+
+           
+            .r3 p{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .hyper{
+                font-size: 1.2em;
+                line-height: normal;
+            }
+       }
+
+       /*responsiveness*/
+
+    </style>
+</head>
+
+<body>
+
+    <h1 class="main-header-1">Education</h1>
+
+    <div class="data">
+        <img src="iitroorkee.jpg" alt="image of IIT Roorkee" id="iitr">
+        <br>
+        <p class="institute">IIT Roorkee</p>
+
+        <div class="text">
+            <ul>
+                <li>Btech: ECE</li><br>
+                <li>2025-2029</li><br>
+                <li>CGPA: 9.652</li>
+            </ul>
+        </div>
+
+        <img src="stpeters.webp" alt="image of St.Peters" id="st">
+        <br><br><br>
+        <p class="institute">St. Peters Senior Secondary School Chandigarh</p>
+
+        <div class="text">
+            <ul>
+                <li>CBSE: Senior Secondary Education</li><br>
+                <li>2023-2025</li><br>
+                <li>CBSE Boards Class 12: 94.6%</li>
+            </ul>
+        </div>
+
+        <img src="bvp.webp" alt="image of Bhavan Vidyalaya" id="bvp">
+        <br><br><br>
+        <p class="institute">Bhavan Vidyalaya Panchkula</p>
+
+        <div class="text">
+            <ul>
+                <li>CBSE: Pre-Primary to Secondary Education</li><br>
+                <li>2011-2023</li><br>
+                <li>CBSE Boards Class 10: 97.6%</li>
+            </ul>
+        </div>
+
+        <br><br><br><br><br><br>
+    </div>
+
+    <h1 class="main-header-2">Key Achievements</h1>
+
+    <ol>
+        <br>
+        <li><b>JEE Advanced 2025:</b> AIR 2087</li><br>
+        <li><b>JEE Mains 2025:</b> AIR 4344 (99.72%ile)</li><br>
+        <li>Branch Changer at IITR: EE to ECE</li><br>
+        <li><b>CodeForces:</b> Max Rating = comingsoon</li><br>
+        <li><b>LeetCode:</b> Questions Solved = comingsoon</li><br>
+    </ol>
+
+    <nav class="r3">
+        <p align="center">
+            <a href="index.html" class="hyper">About Me |</a>
+            <a href="page3.html" class="hyper">Technical Skills |</a>
+            <a href="page4.html" class="hyper">Projects |</a>
+            <a href="page5.html" class="hyper">Experience and Position of Responsibilty |</a>
+            <a href="page6.html" class="hyper">Contact Me</a>
+        </p>
+    </nav>
+
+</body>
+</html>

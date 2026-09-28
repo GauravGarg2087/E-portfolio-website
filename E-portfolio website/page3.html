@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>Technical Skills</title>
+
+    <style>
+        .main-header{
+        text-align:center;
+        height: 150px;
+        font-size: 5em;
+        font-weight: bold;
+        text-decoration: underline;
+        font-family:'Times New Roman', Times, serif;
+        text-shadow: 6px 6px 18px rgb(0,0,0,0.85);
+        margin: 0px;
+        letter-spacing: 0.2rem;
+        line-height: 100px;
+        background-color: #a3d5ff;
+        }
+
+        table,th,tr,td{
+            border: 1px solid black;
+            border-spacing: 3px;
+            border-collapse: collapse;
+            padding: 5px;  
+        }
+
+        td{
+            background-color:#d6dee6;
+            font-size: 1.6em;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        th{
+            background-color: #838f94;
+            font-size: 1.6em;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        .x{
+            background-color: blue;
+        }
+
+        .y{
+            background-color: #d9f0ff;
+        }
+
+        .z{
+        background-color: #83c9f4;
+        height: 130px;
+        line-height:100px;
+        text-shadow: 6px 6px 18px rgb(0,0,0,0.85);
+        }
+
+        .hyper{
+        line-height: 5;
+        font-size:1.53em;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color:blue;
+        }
+
+        .hyper:hover{
+        color:purple;
+        }
+
+        p{
+        margin: 0px;
+        }
+
+        .main-header-2{
+        text-align:center;
+        height: 150px;
+        font-size: 5em;
+        font-weight: bold;
+        text-decoration: underline;
+        font-family:'Times New Roman', Times, serif;
+        text-shadow: 6px 6px 18px rgb(0,0,0,0.85);
+        margin: 0px;
+        letter-spacing: 0.2rem;
+        line-height: 100px;
+        background-color: #a3d5ff;
+        }
+
+        li{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.6em;
+        }
+
+        ol{
+        margin:0px;
+        background-color: #d9f0ff;
+        }
+
+        tr:hover td, tr:hover th {
+            background-color: #838f94;
+            transition: 0.3s;
+        }
+
+        li:hover {
+            background-color: #cce8ff;
+            padding-left: 15px;
+            transition: 0.3s;
+        }
+
+        /*responsiveness*/
+
+      
+        @media (max-width: 992px) {
+
+            .main-header,
+            .main-header-2{
+                font-size: 3.5em;
+                height: auto;
+                line-height: normal;
+                padding: 20px 0;
+            }
+
+            td, th{
+                font-size: 1.4em;
+            }
+
+            li{
+                font-size: 1.4em;
+            }
+
+            .z{
+                height: auto;
+                line-height: normal;
+                padding: 15px 0;
+            }
+        }
+
+        
+        @media (max-width: 600px) {
+
+            .main-header,
+            .main-header-2{
+                font-size: 2.3em;
+                letter-spacing: 0.1rem;
+                padding: 20px 10px;
+            }
+
+           
+            .y{
+                overflow-x: auto;
+            }
+
+            table{
+                width: 100%;
+                min-width: 600px;
+            }
+
+            td, th{
+                font-size: 1.15em;
+            }
+
+            ol{
+                padding: 0 20px;
+            }
+
+            li{
+                font-size: 1.2em;
+            }
+
+            
+            .z p{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .hyper{
+                font-size: 1.2em;
+                line-height: normal;
+            }
+        }
+
+        /*responsiveness*/
+
+    </style>    
+</head>
+
+<body>
+
+    <h1 class="main-header">Technical Skills</h1>
+
+    <div class="y">
+        <table class="x">
+            <tr>
+                <th>Programming:</th>
+                <td>C++, Python, Javascript, more come here</td>
+            </tr>
+
+            <tr>
+                <th>Databases and Cloud:</th>
+                <td>MySQL, more come here</td>
+            </tr>
+
+            <tr>
+                <th>Web and Frameworks:</th>
+                <td>React, Redux, HTML, CSS, more come here</td>
+            </tr>
+
+            <tr>
+                <th>Tools and Libraries:</th>
+                <td>Git, Github, VS Code, Bootstrap, more come here</td>
+            </tr>
+        </table>
+    </div>
+
+    <h1 class="main-header-2">Key Courses taken</h1>
+
+    <ol>
+        <li>Data Structures and Algorithms</li>
+        <li>Data Science</li>
+        <li>Fundamentals of AI/ML</li>
+        <li>Fundamentals of Management</li>
+        <li>more come here</li>
+    </ol> 
+
+    <nav class="z">
+        <p align="center">
+            <a href="index.html" class="hyper">About Me |</a>
+            <a href="page2.html" class="hyper">Education and Achievements |</a>
+            <a href="page4.html" class="hyper">Projects |</a>
+            <a href="page5.html" class="hyper">Experience and Position of Responsibilty |</a>
+            <a href="page6.html" class="hyper">Contact Me</a>
+        </p>
+    </nav>
+
+</body>
+</html>

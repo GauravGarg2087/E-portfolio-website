@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Me: Gaurav Garg</title>
+    <style>
+       #r1{
+        background-color: #a3d5ff;
+        height: 150px;
+        font-size: 5em;
+        font-weight: bold;
+        text-decoration: underline;
+        font-family:'Times New Roman', Times, serif;
+        text-shadow: 6px 6px 18px rgb(0,0,0,0.85);
+        margin: 0px;
+        letter-spacing: 0.2rem;
+        line-height: 100px;
+       } 
+
+       h1 {
+        margin: 0;
+        text-shadow: 6px 6px 18px rgb(0,0,0,0.85);
+       }
+
+       #r2{
+        float:left;
+        clip-path: circle(50% at 50% 50%);
+        top:50px;
+        margin-top:50px;
+       }
+
+       #r3{
+        clear:left;
+        background-color: #83c9f4;
+        height: 130px;
+        line-height:100px;
+        text-shadow: 6px 6px 18px rgb(0,0,0,0.85);
+       }
+
+       .text{
+        text-align: center;
+        background-color: #d9f0ff;
+        margin:0px;
+       }
+
+       p{
+        margin:0px;
+       }
+
+       #lol{
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 3em;
+        font-family: 'Times New Roman', Times, serif;
+       }
+
+       .hello{
+        font-size:1.5em;
+        font-family: 'Times New Roman', Times, serif;
+       }
+
+       .hyper{
+        font-size:1.53em;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color:blue;
+       }
+
+       .hyper:hover{
+        color:purple;
+       }
+
+       /* ===== responsiveness ===== */
+
+       @media (max-width: 992px) {
+            #r1{
+                font-size: 3.5em;
+                height: auto;
+                line-height: 90px;
+                padding: 20px 0;
+            }
+
+            #r2{
+                width: 220px;
+                height: 220px;
+            }
+
+            #lol{
+                font-size: 2.5em;
+            }
+
+            .hello{
+                font-size: 1.3em;
+                padding: 0 20px;
+            }
+
+            #r3{
+                height: auto;
+                line-height: normal;
+                padding: 15px 0;
+            }
+       }
+
+    
+       @media (max-width: 600px) {
+            #r1{
+                font-size: 2.4em;
+                letter-spacing: 0.1rem;
+                line-height: normal;
+                padding: 20px 10px;
+            }
+
+            #r2{
+                float: none;
+                display: block;
+                margin: 30px auto;
+                width: 180px;
+                height: 180px;
+            }
+
+            #lol{
+                font-size: 2em;
+            }
+
+            .hello{
+                font-size: 1.15em;
+                padding: 0 15px;
+                text-align: justify;
+            }
+
+            #r3 p{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .hyper{
+                font-size: 1.2em;
+            }
+       }
+
+       /* ===== responsiveness ===== */
+
+    </style>
+</head>
+
+<body>
+    <h1 align="center" id="r1">Gaurav Garg</h1>
+
+    <div class="text">
+        <img src="image.jpg" alt="image of gaurav garg" width="300" height="300" id="r2">
+
+        <h1 id="lol"> ABOUT ME</h1>
+        <br><br>
+
+        <p class="hello">
+            I’m Gaurav Garg, an ECE undergraduate at IIT Roorkee, originally from Chandigarh.
+            I’m a curious learner who enjoys breaking down complex systems and understanding how things work,
+            whether through code or circuits. I believe in continuous learning and improving by actively exploring
+            new ideas and technologies.
+        </p>
+
+        <br><br>
+
+        <p class="hello">
+            My primary interest lies in software development and problem-solving, and I enjoy working across
+            areas like web development, data structures and algorithms, competitive programming, AI/ML,
+            and quantitative problem-solving. Alongside software, I also have a strong interest in ECE hardware
+            and circuit design, which helps me develop a deeper, system-level perspective and work effectively
+            at the intersection of hardware and software.
+        </p>
+
+        <br><br><br>
+
+        <p class="hello">
+            I’m a team-oriented individual who can adapt easily, contributing either as a leader or as a team
+            member based on the requirements of the project. I value collaboration, clarity, and responsibility.
+            Outside academics and tech, I enjoy football, chess, Formula 1, and music, which keep me motivated,
+            competitive, and balanced.
+        </p>
+    </div>
+
+    <nav id="r3">
+        <p align="center">
+            <a href="page2.html" class="hyper">Education and Achievements | </a>
+            <a href="page3.html" class="hyper">Technical Skills | </a>
+            <a href="page4.html" class="hyper">Projects | </a>
+            <a href="page5.html" class="hyper">Experience and Position of Responsibilty | </a>
+            <a href="page6.html" class="hyper">Contact Me</a>
+        </p>
+    </nav>
+</body>
+</html>
